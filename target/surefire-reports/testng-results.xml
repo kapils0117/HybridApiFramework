@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-22T00:50:23 IST" name="Suite" finished-at="2024-09-22T00:50:35 IST" duration-ms="12678">
+    <groups>
+    </groups>
+    <test started-at="2024-09-22T00:50:23 IST" name="Test" finished-at="2024-09-22T00:50:35 IST" duration-ms="12678">
+      <class name="api.tests.AddPlaceTestByPropertiesFile">
+        <test-method is-config="true" signature="SetupData()[pri:0, instance:api.tests.AddPlaceTestByPropertiesFile@3c407114]" started-at="2024-09-22T00:50:23 IST" name="SetupData" finished-at="2024-09-22T00:50:24 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupData -->
+        <test-method signature="createPlace()[pri:1, instance:api.tests.AddPlaceTestByPropertiesFile@3c407114]" started-at="2024-09-22T00:50:24 IST" name="createPlace" finished-at="2024-09-22T00:50:30 IST" duration-ms="5420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlace -->
+        <test-method signature="getResponseByPlaceId()[pri:2, instance:api.tests.AddPlaceTestByPropertiesFile@3c407114]" started-at="2024-09-22T00:50:30 IST" name="getResponseByPlaceId" finished-at="2024-09-22T00:50:31 IST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseByPlaceId -->
+        <test-method signature="updateByPlaceId()[pri:3, instance:api.tests.AddPlaceTestByPropertiesFile@3c407114]" started-at="2024-09-22T00:50:31 IST" name="updateByPlaceId" finished-at="2024-09-22T00:50:34 IST" duration-ms="2870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateByPlaceId -->
+        <test-method signature="deleteByPlaceId()[pri:4, instance:api.tests.AddPlaceTestByPropertiesFile@3c407114]" started-at="2024-09-22T00:50:34 IST" name="deleteByPlaceId" finished-at="2024-09-22T00:50:35 IST" duration-ms="1705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteByPlaceId -->
+      </class> <!-- api.tests.AddPlaceTestByPropertiesFile -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

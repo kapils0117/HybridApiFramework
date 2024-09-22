@@ -1,0 +1,106 @@
+ 1. To run Testng.xml file :
+ Go to TestNG file =>Right click and run with TestNG Suite and then test cases will be executed
+ 
+ Report : Refresh the project and go to reports folder and open report
+ 
+ 
+ 2. To run test cases via pom.xml file:
+ 
+ Add all dependencies first and then go to pom.xml file
+ Right click and run as  - with "Maven test" option then it will run testng.xml file and build will success 
+ 
+ 3. We can implement hybrid framework in two ways first we can call route class , second we can create property class and then call it.
+
+ 
+ 4. Run cases thru Maven
+ first install maven software either for windows or mac 
+ 
+ After installing maven and put it in C drive
+ open CMD and run below cmnds
+ C:\Users\KSHARM23>mvn -version
+ 
+ 
+ Go to proj location and run dir command to check folders n files
+ C:\Users\KSHARM23\eclipse-workspace\HybridApiFramework>dir
+ 
+ To run the test cases run below command -> mvn test
+ 
+ GIT: Local Repo
+ Firstly whatever code QA will implement will send his code to local repo and it is called GIT (local repository)
+ and also here COMMIT command will be used
+ 
+ 
+ GITHUB: Global Repo (Remote repo)
+ Here QA will send his code from local repo to global repo means he will PUSH his code to global repo.
+ Here PUSH command will be sued to send code to GITHUB repo.
+ 
+ and from there in devops env QA will use maven to create the build and from github they will get automation code n will use jenkins to execute code
+ Also before pushing code to github or jenkins we need to execute our code first thru maven and before maven we can execute code manually by testng.xml file
+ 1. Exceute code first with eclipse (thru testng.xml file)
+ 2. Then also run code thru pom.xml file in eclipse
+ 3. Then run code using pom.xml via cmd by maven
+ 4. Then commit code in local repo(git repo)
+ 5. Then push code to Remote repo (github repo)
+ 6. Run project/cases by jenkins (by git/github)
+ 
+ 
+ GIT WORKFLOW:
+ 
+ Working directory : Here our code files is present like Eclipse (Untracked file)
+ 
+ Staging Area (Tracked file) : Here by using Add command we will send code from working directory to Staging 
+ 
+ Git Repo(Committed file) : Here we will Send data and commit by using COMMIT command 
+ 
+ GitHub(Remote file) : We will PUSH code from Git repo to Remote repo by using PUSH command
+ 
+ So now once the code is available to remote repo(github) then Jekins pick that and can access n run
+ 
+ Gitbash is GIT command prompt where we will perform all operations
+ 
+ Go to any folder and right click=> git bash
+ 
+ 
+ CI process:
+ 
+ Install GIT software
+ Need to have github account , Go to github web app and create account 
+ 
+ 
+ Working directory is Project location: C:\Users\pavan\restAssuredTraining\PetStoreAutomation
+Right click on project n copy path  :  C:\Users\KSHARM23\eclipse-workspace\HybridApiFramework
+
+on system go to project folder and right click 
+C:\Users\KSHARM23\eclipse-workspace\HybridApiFramework 
+Now right click and open gitbash by clicking on it n then run below commands
+
+1) git init   ---> create an emtpy local repository   (one time)
+
+2) git config --global user.name  "your name"            (one time)
+    git config --global user.email  "abc@gmail.com"
+
+3) git status
+
+
+4) git add -A   --> add all the files & folders to staging area.
+   git add filename.ext
+   git add *.ext (It will add all files which has extension .ext or .java)
+   git add foldernamegit commit -m  "commit message" 
+
+5) git commit -m "comment"  (Now we need to commit all the files to local repo (git repo))
+
+
+--------------------------------------
+Push the code to remote repository
+ 6) git remote add origin "url"    ---> Make connection & local repository connected with remote repository.(one time)
+
+ 7) git push -u origin master
+ 
+ 
+ NOW SUPPOSE SOME FILES ARE ADDED IN EXISTING CODE then below commands we need to execute
+ 
+ git add -A
+ git commit -m "comment"
+ git status
+ git push -u origin master
+ 

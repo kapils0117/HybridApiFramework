@@ -1,0 +1,40 @@
+14:24:37.791 [main] INFO  api.tests.AddPlaceTest - **************Creating AddPlace Post Request*************
+14:24:41.607 [main] INFO  api.tests.AddPlaceTest - **************Created AddPlace POST*****************
+14:24:41.634 [main] INFO  api.tests.AddPlaceTest - **************GET getting addPlace info*************
+14:24:42.916 [main] INFO  api.tests.AddPlaceTest - **************addPlace info is displayed*****************
+14:24:42.921 [main] INFO  api.tests.AddPlaceTest - **************Updating addPlace info*****************
+14:24:45.729 [main] INFO  api.tests.AddPlaceTest - *************AddPlace API is updated*****************
+14:24:45.736 [main] INFO  api.tests.AddPlaceTest - **************Deleting addPlace info*****************
+14:24:47.438 [main] INFO  api.tests.AddPlaceTest - *************AddPlace API is Deleted*****************
+16:30:34.970 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Creating AddPlace Post Request*************
+16:30:39.050 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Created AddPlace POST*****************
+16:30:39.069 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************GET getting addPlace info*************
+16:30:40.639 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************addPlace info is displayed*****************
+16:30:40.648 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Updating addPlace info*****************
+16:30:44.235 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - *************AddPlace API is updated*****************
+16:30:44.240 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Deleting addPlace info*****************
+16:30:46.582 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - *************AddPlace API is Deleted*****************
+18:11:40.026 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Creating AddPlace Post Request*************
+18:11:42.701 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Created AddPlace POST*****************
+18:11:42.718 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************GET getting addPlace info*************
+18:11:43.973 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************addPlace info is displayed*****************
+18:11:43.974 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Updating addPlace info*****************
+18:11:46.621 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - *************AddPlace API is updated*****************
+18:11:46.623 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Deleting addPlace info*****************
+18:11:48.011 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - *************AddPlace API is Deleted*****************
+18:13:09.234 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Creating AddPlace Post Request*************
+18:13:11.764 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Created AddPlace POST*****************
+18:13:11.783 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************GET getting addPlace info*************
+18:13:13.068 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************addPlace info is displayed*****************
+18:13:13.072 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Updating addPlace info*****************
+18:13:16.103 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - *************AddPlace API is updated*****************
+18:13:16.105 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Deleting addPlace info*****************
+18:13:17.978 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - *************AddPlace API is Deleted*****************
+00:50:24.671 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Creating AddPlace Post Request*************
+00:50:30.085 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Created AddPlace POST*****************
+00:50:30.121 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************GET getting addPlace info*************
+00:50:31.314 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************addPlace info is displayed*****************
+00:50:31.316 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Updating addPlace info*****************
+00:50:34.186 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - *************AddPlace API is updated*****************
+00:50:34.188 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - **************Deleting addPlace info*****************
+00:50:35.893 [main] INFO  api.tests.AddPlaceTestByPropertiesFile - *************AddPlace API is Deleted*****************
